@@ -3,7 +3,7 @@ mod helpers {
     //  the appropriate path to refer to the `Ticket` struct.
 
     fn create_todo_ticket(title: String, description: String) -> Ticket {
-        Ticket::new(title, description, "To-Do".into())
+        super::Ticket::new(title, description, "To-Do".into())
     }
 }
 
